@@ -1,0 +1,251 @@
+/* Universal styles */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* Hero styles */
+.hero {
+    background-image: url("images/odam.png");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+}
+
+header .logo {
+    height: 40px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: #F57520;
+}
+
+/* Intro styles */
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+
+.intro .content {
+    width: 50px;
+}
+
+.intro h1 {
+    color: white;
+    font-size: 62px;
+    margin: 0;
+}
+
+.intro p {
+    color: white;
+    line-height: 25px;
+    margin: 40px 0;
+}
+
+.intro .container div {
+    width: 50%;
+}
+
+.intro a {
+    background-color: #F57520;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 12px;
+}
+
+/* Katalog styles */
+
+.katalog {
+    background-color: #777777;
+    padding-top: 70px;
+}
+
+.katalog h2 {
+    margin-top: 0;
+    font-size: 42px;
+    text-align: center;
+}
+
+.katalog .top {
+    margin-bottom: 15px;
+}
+
+.katalog .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.katalog .left {
+    width: 30%;
+}
+
+.katalog .right {
+    width: 69%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.katalog .right img {
+    width: 49%;
+    margin-bottom: 15px;
+    height: 205px;
+}
+
+.katalog img {
+    width: 100%;
+}
+
+.katalog .left img {
+    height: 430px;
+}
+
+.right div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* trssa stayle */
+
+.trassa {
+    background-color: #777777;
+    padding: 100px 0px;
+    padding-bottom: 200px;
+}
+
+.trassa h2 {
+    margin: 0 0;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.trassa .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trassa .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.trassa .top div {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.trassa .bottom div {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.trassa .bottom div:hover {
+    width: 30%;
+    background-color: #F57520;
+    color: black;
+}
+
+.trassa .top div:hover {
+    width: 30%;
+    background-color: #F57520;
+    color: black;
+}
+
+.trassa .bottom div img {
+    width: 100%;
+}
+
+.trassa .top div img {
+    width: 100%;
+}
+
+.trassa .top div p {
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.trassa .bottom div p {
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* form stayle */
+
+.form {
+    width: 100%;
+}
+
+/* iframe stayle */
+
+iframe {
+    width: 100%;
+}
+
+/* footer stayle */
+
+footer {
+    background-color: black;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+footer .container a {
+    color: white;
+}
+
+footer .bottom {
+    font-size: 10px;
+}
