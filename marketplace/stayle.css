@@ -1,0 +1,185 @@
+/* universal */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.conainer {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* bodiy stayle */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F5F5F5;
+}
+
+/* header stayle */
+
+header {
+  background-color: black;
+  padding: 10px 0;
+}
+
+header .conainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  gap: 60px;
+}
+
+header form {
+  margin-bottom: 0;
+}
+
+header a {
+  color: white;
+}
+
+header input {
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+}
+
+/* intro sayle */
+
+.intro {
+  background-image: url("./img/pult.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  height: 200px;
+}
+
+.intro h1 {
+  margin: 0;
+  color: white;
+  font-size: 42px;
+  width: 35 0px;
+
+}
+
+.intro a {
+  background-color: #76B900;
+  padding: 15px 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.intro .content div {
+  margin-bottom: 152px;
+}
+
+/* game stayle */
+
+.game span {
+  color: #76B900;
+  font-weight: 600;
+}
+
+.game {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.game h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.game .fatxer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game .content {
+  width: 23%;
+  text-align: center;
+  padding-bottom: 20px;
+  box-shadow: 10px 20px 50px 1px rgb(161, 160, 160);
+}
+
+.game .content img {
+  width: 100%;
+}
+
+.game h4 {
+  padding: 20px;
+}
+
+.game a {
+  color: black;
+}
+
+/* reklama */
+
+.reklama {
+  padding-top: 40px;
+  background-color: white;
+}
+
+.reklama .conainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reklama .conainer div {
+  width: 30%;
+}
+
+.reklama img {
+  width: 60%;
+}
+
+.reklama h1 {
+  margin: 0;
+  font-size: 42px;
+  width: 400px;
+  color: #76B900;
+}
+
+.reklama p {
+  margin-top: 40px;
+  margin-bottom: 74px;
+}
+
+.reklama a {
+  background-color: #76B900;
+  padding: 15px 20px;
+  font-weight: 600;
+  color: black;
+  margin-top: 200px;
+}
+
+/* footer sayle  */
+
+footer {
+  padding: 50px 0px;
+}
+
+footer .conainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: #666666;
+}

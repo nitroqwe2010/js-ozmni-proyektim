@@ -1,0 +1,250 @@
+/* uneversal stayle */
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    width: 1300;
+    margin: 0 auto;
+}
+
+/* body stayle */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8F2;
+}
+
+/* header stayle */
+
+header {
+    background-color: #F3D7B7;
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header a {
+    color:#333333;
+}
+
+/* intro */
+.intro {
+    padding-top: 100px;
+    background-color: #F3D7B7;
+    height: 600px;
+}
+
+.intro .container {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro .stanp {
+    position: absolute;
+    top: 50px;
+    right: 600px;
+}
+
+.intro .yozuv h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.intro .yozuv p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+}
+
+.intro .yozuv a {
+    background-color: #0A775F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* our stayle */
+
+.our {
+    margin-top: 200px;
+}
+
+.our h1 {
+    text-align: center;
+}
+
+.our .Danche {
+    display: flex;
+    align-items: center;
+}
+
+.our .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.our .Danche p {
+    width: 300px;
+}
+
+.our .Danche img {
+    width: 50%;
+    margin: 0;
+}
+
+.our .Danche .yozuv {
+    width: 50%;
+}
+
+.our .container img {
+    width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.our .container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* commitment stayle */
+
+.commitment {
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commitment .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commitment .container div {
+    width: 50%;
+}
+
+/* black grill stayle */
+.blackgrill {
+    background-color:#C99B67;
+    color: white;
+    height: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackgrill img {
+    position: absolute;
+    left: 700px;
+    top: 1400px;
+}
+
+.blackgrill .black h1 {
+    font-size: 40px;
+    width: 300px;
+}
+
+.blackgrill .black {
+    width: 500px;
+}
+
+.blackgrill .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blackgrill p {
+    line-height: 20px;
+}
+
+
+
+
+/* footer stayle */
+
+footer {
+    background-color: #F3D7B7;
+    padding: 30px 0px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    gap: 50px;
+}
+
+footer ul img {
+    width: 30px;
+}
+
+footer ul a {
+    color: #333333;
+}
+
+footer .internet {
+    gap: 20px;
+}
+
+/* 
+.our .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.our .Danche {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+}
+
+.our .yozuv {
+    width: 50%;
+}
+
+.our .boxcoffee {
+    width: 50%;
+}
+
+.our .Danche h4 {
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.our .Danche p {
+    color: #333333;
+    width: 300px;
+    margin-left: 0;
+    margin-right: 0;
+} */
